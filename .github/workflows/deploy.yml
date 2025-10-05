@@ -9,7 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env: 
-      NUXT_PUBLIC_SITE_URL: https://csbigcaptain.github.io/cicd-test/
+      NUXT_APP_BASE_URL: /cicd-test/
+      NUXT_PUBLIC_SITE_URL: ${{ steps.deployment.outputs.page_url }}
       NUXT_PUBLIC_PLATIFORM: github_pages
       NUXT_PUBLIC_PRIVATE_TEST_A: ${{ secrets.TEST_A }}
       NUXT_PUBLIC_VARS_TEST_A: ${{ vars.TEST_A }}

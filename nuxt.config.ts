@@ -4,15 +4,15 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@nuxt/image', '@nuxt/scripts', '@compodium/nuxt'],
   css: ['~/assets/css/main.css'],
-  app: {
-    baseURL: './',
-  },
   runtimeConfig: {
     public: {
       siteUrl: '404',
       platiform: '404',
       private_test_a: '404',
-      vars_test_a: '404'
+      vars_test_a: '404',
+    },
+    app: {
+      baseURL: '/'
     }
   }
 })
