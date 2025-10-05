@@ -1,0 +1,15 @@
+{
+  "atDirectives": [
+    {
+      "name": "@theme",
+      "description": "Tailwind CSS v4 theme directive.",
+      "references": [
+        {
+          "name": "Tailwind CSS @theme docs",
+          "url": "https://tailwindcss.com/docs/theme"
+        }
+      ]
+    }
+  ]
+}
+

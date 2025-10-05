@@ -1,0 +1,27 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "ui"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "ui:\\s*{([^)]*)\\s*}",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
+  ],
+  "css.customData": [
+    "./.vscode/tailwindcss.custom-data.json"
+  ],
+  "scss.customData": [
+    "./.vscode/tailwindcss.custom-data.json"
+  ],
+  "less.customData": [
+    "./.vscode/tailwindcss.custom-data.json"
+  ]
+}
