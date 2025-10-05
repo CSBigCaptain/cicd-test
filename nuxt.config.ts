@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@nuxt/image', '@nuxt/scripts', '@compodium/nuxt'],
   css: ['~/assets/css/main.css'],
+  app: {
+    baseURL: './',
+  },
   runtimeConfig: {
     public: {
       siteUrl: '404',
