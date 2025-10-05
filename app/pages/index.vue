@@ -3,7 +3,7 @@
     <h1 class="text-5xl fw-bolder">CI/CD Environments Test Page</h1>
     <h2 class="text-3xl fw-bold">INFO</h2>
     <UTable :data="data"></UTable>
-  </div> 
+  </div>
 </template>
 
 <script lang="ts" setup>
