@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       siteUrl: '404',
       platiform: '404',
       private_test_a: '404',
-      var_test_a: '404'
+      vars_test_a: '404'
     }
   }
 })

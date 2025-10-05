@@ -24,7 +24,7 @@ const data = ref([
   },
   {
     key: 'Public Env Test A',
-    value: runtimeConfig.public.var_test_a,
+    value: runtimeConfig.public.vars_test_a,
   },
 ])
 </script>
